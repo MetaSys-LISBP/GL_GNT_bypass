@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2023-03-17T09:09:56Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2023-11-24T11:21:28Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -740,7 +740,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_18" name="_partition_r5_r2r5_PPP" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_18">
     <dcterms:created>
       <rdf:Description>
@@ -749,6 +751,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_19" name="_partition_r6_r6r8_intra" simulationType="fixed" addNoise="false">
@@ -766,7 +769,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_20" name="r9_k_deg_GL" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_20">
     <dcterms:created>
       <rdf:Description>
@@ -775,6 +780,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_21" name="enr_GLC_e" simulationType="assignment" addNoise="false">
@@ -817,7 +823,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_24" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5380" name="v" value="8.69941"/>
+          <Constant key="Parameter_5380" name="v" value="7.74551"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -855,7 +861,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5379" name="v" value="7.4032"/>
+          <Constant key="Parameter_5379" name="v" value="6.42878"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -893,7 +899,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5378" name="v" value="15.9327"/>
+          <Constant key="Parameter_5378" name="v" value="12.9026"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -928,7 +934,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5377" name="v" value="15.9327"/>
+          <Constant key="Parameter_5377" name="v" value="12.9026"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -966,7 +972,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5376" name="v" value="1.29621"/>
+          <Constant key="Parameter_5376" name="v" value="1.31674"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1004,7 +1010,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_22" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5375" name="v" value="0.648106"/>
+          <Constant key="Parameter_5375" name="v" value="0.00131674"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1042,7 +1048,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5374" name="v" value="0.678506"/>
+          <Constant key="Parameter_5374" name="v" value="0.0271167"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1080,7 +1086,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_22" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5373" name="v" value="0.648106"/>
+          <Constant key="Parameter_5373" name="v" value="1.31542"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1118,7 +1124,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_18" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5372" name="v" value="0.0304"/>
+          <Constant key="Parameter_5372" name="v" value="0.0258"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[extracellular]">
           <ListOfCallParameters>
@@ -1156,7 +1162,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5371" name="v" value="0.0304"/>
+          <Constant key="Parameter_5371" name="v" value="0.0258"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1194,7 +1200,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5370" name="v" value="15.9327"/>
+          <Constant key="Parameter_5370" name="v" value="12.9026"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1229,7 +1235,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5369" name="v" value="15.9327"/>
+          <Constant key="Parameter_5369" name="v" value="12.9026"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1267,7 +1273,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5368" name="v" value="0.678506"/>
+          <Constant key="Parameter_5368" name="v" value="0.0271167"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1305,7 +1311,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5367" name="v" value="0.0304"/>
+          <Constant key="Parameter_5367" name="v" value="0.0258"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default">
           <ListOfCallParameters>
@@ -1340,7 +1346,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_16" stoichiometry="2"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5366" name="k1" value="0.47"/>
+          <Constant key="Parameter_5366" name="k1" value="0.395195"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1375,7 +1381,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_18" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5365" name="v" value="0.0304"/>
+          <Constant key="Parameter_5365" name="v" value="0.0258"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[extracellular]">
           <ListOfCallParameters>
@@ -1413,7 +1419,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5364" name="v" value="1.29621"/>
+          <Constant key="Parameter_5364" name="v" value="1.31674"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1451,7 +1457,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_24" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5363" name="v" value="8.69941"/>
+          <Constant key="Parameter_5363" name="v" value="7.74551"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1489,7 +1495,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5362" name="v" value="7.4032"/>
+          <Constant key="Parameter_5362" name="v" value="6.42878"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1527,7 +1533,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_22" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5361" name="v" value="0.648106"/>
+          <Constant key="Parameter_5361" name="v" value="0.00131674"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1565,7 +1571,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Modifier metabolite="Metabolite_22" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_5360" name="v" value="0.648106"/>
+          <Constant key="Parameter_5360" name="v" value="1.31542"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[cytosol]">
           <ListOfCallParameters>
@@ -1616,7 +1622,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2023-03-17T09:08:49Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2023-11-24T10:58:28Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1631,7 +1637,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[G6P_0]" value="6.0221408570000002e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_0]" value="9.0332112855000007e+21" type="Species" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_0]" value="9.3899275681238509e+21" type="Species" simulationType="ode"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[GAP_0]" value="6.0221408570000002e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[PYR_0]" value="6.0221408570000002e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[6PGL_0]" value="6.0221408570000002e+20" type="Species" simulationType="reactions"/>
@@ -1646,183 +1652,183 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[GAP_tot]" value="6.0221408570000002e+20" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GNT_e_tot]" value="6.0221408570000005e+18" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[PYR_tot]" value="6.0221408570000002e+20" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[X]" value="2.2583028213750002e+19" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[X]" value="3.4560528786603893e+19" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GL_e_1]" value="0" type="Species" simulationType="ode"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GL_tot]" value="6.0221408570000005e+18" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[6PGL_1]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[G6P_1]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_1]" value="0" type="Species" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_1]" value="2.4929463011837474e+20" type="Species" simulationType="ode"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[6PGL_tot]" value="6.0221408570000002e+20" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[G6P_tot]" value="6.0221408570000002e+20" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_tot]" value="9.0332112855000007e+21" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_tot]" value="9.6392221982422267e+21" type="Species" simulationType="assignment"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_v1_PTS]" value="8.6994138403274146" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v2_EMP_high]" value="7.4032011781186293" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v3_EMP_low]" value="15.93272286587055" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v4_PYR_out]" value="15.93272286587055" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v5_G6PDH]" value="1.2962126622087846" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v6_PGL]" value="0.64810633110439231" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v7_PPP]" value="0.67850633110439229" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v8_GL_export]" value="0.64810633110439231" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v9_GL_degradation]" value="0.0304" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v11_GNT_uptake]" value="0.0304" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_v1_PTS]" value="7.7455141478590415" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v2_EMP_high]" value="6.428776742723004" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v3_EMP_low]" value="12.902567269546147" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v4_PYR_out]" value="12.902567269546147" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v5_G6PDH]" value="1.3167374051360372" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v6_PGL]" value="0.0013167374097215719" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v7_PPP]" value="0.027116737409721571" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v8_GL_export]" value="1.3154206677263156" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v9_GL_degradation]" value="0.0258" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[v11_GNT_uptake]" value="0.0258" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[enr_GNT_e]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[enr_6PG]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[enr_GAP]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[enr_PYR]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_mu]" value="0.4699999999991416" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_mu]" value="0.39519488194442937" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[enr_GL_e]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[__t_PULSE_GLC_1]" value="3" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[__c_PULSE_GLC_1]" value="5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_partition_r5_r2r5_PPP]" value="0.14899999999999999" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_partition_r6_r6r8_intra]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[r9_k_deg_GL]" value="3.04" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[enr_GLC_e]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[__t_PULSE_GLC_1]" value="5.1505679468939451" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[__c_PULSE_GLC_1]" value="12.194449494953732" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_partition_r5_r2r5_PPP]" value="0.17000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[_partition_r6_r6r8_intra]" value="0.0010000000034824975" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[r9_k_deg_GL]" value="2.5800000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[enr_GLC_e]" value="0.025862525522425989" type="ModelValue" simulationType="assignment"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r1_0_PTS]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r1_0_PTS],ParameterGroup=Parameters,Parameter=v" value="8.6994138403274146" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r1_0_PTS],ParameterGroup=Parameters,Parameter=v" value="7.7455141478590415" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[_v1_PTS],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r2_0_EMP_high]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r2_0_EMP_high],ParameterGroup=Parameters,Parameter=v" value="7.4032011781186293" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r2_0_EMP_high],ParameterGroup=Parameters,Parameter=v" value="6.428776742723004" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v2_EMP_high],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r3_0_EMP_low]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r3_0_EMP_low],ParameterGroup=Parameters,Parameter=v" value="15.93272286587055" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r3_0_EMP_low],ParameterGroup=Parameters,Parameter=v" value="12.902567269546147" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v3_EMP_low],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r4_0_PYR_out]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r4_0_PYR_out],ParameterGroup=Parameters,Parameter=v" value="15.93272286587055" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r4_0_PYR_out],ParameterGroup=Parameters,Parameter=v" value="12.902567269546147" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v4_PYR_out],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r5_0_G6PDH]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r5_0_G6PDH],ParameterGroup=Parameters,Parameter=v" value="1.2962126622087846" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r5_0_G6PDH],ParameterGroup=Parameters,Parameter=v" value="1.3167374051360372" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v5_G6PDH],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r6_0_PGL]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r6_0_PGL],ParameterGroup=Parameters,Parameter=v" value="0.64810633110439231" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r6_0_PGL],ParameterGroup=Parameters,Parameter=v" value="0.0013167374097215719" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v6_PGL],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r7_0_PPP]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r7_0_PPP],ParameterGroup=Parameters,Parameter=v" value="0.67850633110439229" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r7_0_PPP],ParameterGroup=Parameters,Parameter=v" value="0.027116737409721571" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v7_PPP],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r8_0_GL_export]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r8_0_GL_export],ParameterGroup=Parameters,Parameter=v" value="0.64810633110439231" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r8_0_GL_export],ParameterGroup=Parameters,Parameter=v" value="1.3154206677263156" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v8_GL_export],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r9_0_GL_degradation]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r9_0_GL_degradation],ParameterGroup=Parameters,Parameter=v" value="0.0304" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r9_0_GL_degradation],ParameterGroup=Parameters,Parameter=v" value="0.0258" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v9_GL_degradation],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r11_0_GNT_uptake]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r11_0_GNT_uptake],ParameterGroup=Parameters,Parameter=v" value="0.0304" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r11_0_GNT_uptake],ParameterGroup=Parameters,Parameter=v" value="0.0258" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v11_GNT_uptake],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r3_1_EMP_low]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r3_1_EMP_low],ParameterGroup=Parameters,Parameter=v" value="15.93272286587055" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r3_1_EMP_low],ParameterGroup=Parameters,Parameter=v" value="12.902567269546147" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v3_EMP_low],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r4_1_PYR_out]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r4_1_PYR_out],ParameterGroup=Parameters,Parameter=v" value="15.93272286587055" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r4_1_PYR_out],ParameterGroup=Parameters,Parameter=v" value="12.902567269546147" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v4_PYR_out],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r7_1_PPP]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r7_1_PPP],ParameterGroup=Parameters,Parameter=v" value="0.67850633110439229" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r7_1_PPP],ParameterGroup=Parameters,Parameter=v" value="0.027116737409721571" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v7_PPP],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r11_1_GNT_uptake]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r11_1_GNT_uptake],ParameterGroup=Parameters,Parameter=v" value="0.0304" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r11_1_GNT_uptake],ParameterGroup=Parameters,Parameter=v" value="0.0258" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v11_GNT_uptake],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r_growth]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r_growth],ParameterGroup=Parameters,Parameter=k1" value="0.4699999999991416" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r_growth],ParameterGroup=Parameters,Parameter=k1" value="0.39519488194442937" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[_mu],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r9_1_GL_degradation]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r9_1_GL_degradation],ParameterGroup=Parameters,Parameter=v" value="0.0304" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r9_1_GL_degradation],ParameterGroup=Parameters,Parameter=v" value="0.0258" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v9_GL_degradation],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r5_1_G6PDH]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r5_1_G6PDH],ParameterGroup=Parameters,Parameter=v" value="1.2962126622087846" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r5_1_G6PDH],ParameterGroup=Parameters,Parameter=v" value="1.3167374051360372" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v5_G6PDH],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r1_1_PTS]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r1_1_PTS],ParameterGroup=Parameters,Parameter=v" value="8.6994138403274146" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r1_1_PTS],ParameterGroup=Parameters,Parameter=v" value="7.7455141478590415" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[_v1_PTS],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r2_1_EMP_high]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r2_1_EMP_high],ParameterGroup=Parameters,Parameter=v" value="7.4032011781186293" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r2_1_EMP_high],ParameterGroup=Parameters,Parameter=v" value="6.428776742723004" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v2_EMP_high],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r6_1_PGL]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r6_1_PGL],ParameterGroup=Parameters,Parameter=v" value="0.64810633110439231" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r6_1_PGL],ParameterGroup=Parameters,Parameter=v" value="0.0013167374097215719" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v6_PGL],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[r8_1_GL_export]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r8_1_GL_export],ParameterGroup=Parameters,Parameter=v" value="0.64810633110439231" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[r8_1_GL_export],ParameterGroup=Parameters,Parameter=v" value="1.3154206677263156" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[v8_GL_export],Reference=InitialValue>
               </InitialExpression>
@@ -1884,7 +1890,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_20"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 9.0332112855000007e+21 6.0221408570000005e+18 6.0221408570000005e+18 0 0 0 6.0221408570000002e+20 0 6.0221408570000002e+20 0 6.0221408570000002e+20 0 6.0221408570000002e+20 0 6.0221408570000002e+20 0 2.2583028213750002e+19 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000005e+18 6.0221408570000005e+18 9.0332112855000007e+21 7.4032011781186293 15.93272286587055 15.93272286587055 1.2962126622087846 0.64810633110439231 0.67850633110439229 0.64810633110439231 0.0304 0.0304 0 0 0 0 0 0 1 1 8.6994138403274146 0.4699999999991416 3 5 0.14899999999999999 0.5 3.04 
+      0 9.3899275681238509e+21 6.0221408570000005e+18 6.0221408570000005e+18 0 0 2.4929463011837474e+20 6.0221408570000002e+20 0 6.0221408570000002e+20 0 6.0221408570000002e+20 0 6.0221408570000002e+20 0 6.0221408570000002e+20 0 3.4560528786603893e+19 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000002e+20 6.0221408570000005e+18 6.0221408570000005e+18 9.6392221982422267e+21 6.428776742723004 12.902567269546147 12.902567269546147 1.3167374051360372 0.0013167374097215719 0.027116737409721571 1.3154206677263156 0.0258 0.0258 0 0 0 0 0 0.025862525522425989 1 1 7.7455141478590415 0.39519488194442937 5.1505679468939451 12.194449494953732 0.17000000000000001 0.0010000000034824975 2.5800000000000001 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1989,7 +1995,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[_v1_PTS],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="5"/>
             <Parameter name="UpperBound" type="cn" value="11"/>
-            <Parameter name="StartValue" type="float" value="7.9860653050000003"/>
+            <Parameter name="StartValue" type="float" value="7.7455141479999998"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1999,7 +2005,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[_mu],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.3"/>
             <Parameter name="UpperBound" type="cn" value="0.7"/>
-            <Parameter name="StartValue" type="float" value="0.60764061769182809"/>
+            <Parameter name="StartValue" type="float" value="0.39519488194442937"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -2009,7 +2015,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_0],Reference=InitialConcentration"/>
             <Parameter name="LowerBound" type="cn" value="10"/>
             <Parameter name="UpperBound" type="cn" value="20"/>
-            <Parameter name="StartValue" type="float" value="15.427400345315085"/>
+            <Parameter name="StartValue" type="float" value="15.592341313652954"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -2019,7 +2025,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Compartments[cytosol],Vector=Metabolites[X],Reference=InitialConcentration"/>
             <Parameter name="LowerBound" type="cn" value="0.01"/>
             <Parameter name="UpperBound" type="cn" value="0.07"/>
-            <Parameter name="StartValue" type="float" value="0.020262607603860696"/>
+            <Parameter name="StartValue" type="float" value="0.057389107307962609"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -2029,7 +2035,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[__c_PULSE_GLC_1],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1"/>
             <Parameter name="UpperBound" type="cn" value="20"/>
-            <Parameter name="StartValue" type="float" value="15.545422799546603"/>
+            <Parameter name="StartValue" type="float" value="12.194449494953732"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -2039,7 +2045,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[__t_PULSE_GLC_1],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="4"/>
             <Parameter name="UpperBound" type="cn" value="6"/>
-            <Parameter name="StartValue" type="float" value="5.4927885037597246"/>
+            <Parameter name="StartValue" type="float" value="5.1505679468939451"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -2049,7 +2055,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[_partition_r6_r6r8_intra],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="UpperBound" type="cn" value="0.999"/>
-            <Parameter name="StartValue" type="float" value="0.04074009090914836"/>
+            <Parameter name="StartValue" type="float" value="0.0010000000034824975"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -2059,7 +2065,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Compartments[extracellular],Vector=Metabolites[GLC_e_1],Reference=InitialConcentration"/>
             <Parameter name="LowerBound" type="cn" value="1e-03"/>
             <Parameter name="UpperBound" type="cn" value="2"/>
-            <Parameter name="StartValue" type="float" value="0.015216858153432784"/>
+            <Parameter name="StartValue" type="float" value="0.41396346588041077"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -2706,7 +2712,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2023-03-17T09:08:47Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2023-11-24T10:58:26Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2724,7 +2730,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2023-03-17T09:08:47Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2023-11-24T10:58:26Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2742,7 +2748,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_12">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2023-03-17T09:08:47Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2023-11-24T10:58:26Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2760,7 +2766,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2023-03-17T09:08:47Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2023-11-24T10:58:26Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2778,7 +2784,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_34">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2023-03-17T09:08:47Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2023-11-24T10:58:26Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2796,7 +2802,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_40">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2023-03-17T09:08:47Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2023-11-24T10:58:26Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
