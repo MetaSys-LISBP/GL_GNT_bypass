@@ -1,6 +1,6 @@
-# GL_GNT_bypass
+# Extracellular gluconolactone-gluconate by-pass of *E. coli*
 
-This repository contains the model and data used for <sup>13</sup>C metabolic flux analysis of the extracellular GL-GNT by-pass of *E. coli*, as detailed in the publication.
+This repository contains the model and data used for <sup>13</sup>C metabolic flux analysis of the extracellular gluconolactone-gluconate (GL-GNT) by-pass of *Escherichia coli*, as detailed in the publication.
 
 ## Quick-start
 
