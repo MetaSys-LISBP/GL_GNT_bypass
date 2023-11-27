@@ -1,6 +1,6 @@
 # GL_GNT_bypass
 
-This repository contains the model and data used for <sup>13</sup>C metabolic flux analysis of the extracellular GL-GNT by-pass of *E. coli*, as detailed in <REF>.
+This repository contains the model and data used for <sup>13</sup>C metabolic flux analysis of the extracellular GL-GNT by-pass of *E. coli*, as detailed in the publication.
 
 ## Quick-start
 
